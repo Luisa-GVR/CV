@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href=".idea/css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+    <title>CV</title>
+</head>
+
+<body bgColor="#799eb3">
+
+<div class="wrapper">
+
+  <div class="left-side">
+
+    <img src=".idea/images/foto.jpg" alt="Foto Villalobos" class="profile-pic">
+
+    <br>
+    <h1><b> Luisa Gabriela Villalobos Ramírez </b></h1>
+    <p> Estudiante de Ingeniería en Sistemas</p>
+    <p> de Información</p>
+    <hr>
+
+    <h1>CONTACTO</h1>
+    <p><img src=".idea/images/telefono.png" alt = "celular" class = "icon"> +52 662 373 0471</p>
+    <p><img src=".idea/images/correo.png" alt = "correo" class = "icon"> luisagavr@gmail.com</p>
+    <p><img src=".idea/images/ubicacion.png" alt = "ubicacion" class = "icon"> Hermosillo, Sonora, Mexico</p>
+    <p>
+      <a href="https://www.linkedin.com/in/luisa-gabriela-villalobos-ramírez-1a59a1279/" target="_blank" style="text-decoration: none; color: inherit;">
+        <img src=".idea/images/linkedin.png" alt="linkedin" class="icon"> Luisa Gabriela Villalobos Ramírez
+      </a>
+    </p>
+
+    <hr>
+    <h1><b> IDIOMAS </b></h1>
+
+    <p>Español</p>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 95%;"></div>
+    </div>
+
+    <p>Inglés</p>
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 85%;"></div>
+    </div>
+
+    <hr>
+    <a href=".idea/documento/cv.pdf" class="left-link" download="CV Villalobos Ramirez Luisa Gabriela.pdf">
+      <p>Descargar CV en PDF</p>
+    </a>
+    <a href="" target="_blank" class="left-link">
+      <p>Videocurrículum</p>
+    </a>
+
+
+  </div>
+
+
+  <div class="right-side">
+    <div class="align-right">
+      <button class="custom-button" onclick="showContent('skills')">Habilidades</button>
+      <button class="custom-button" onclick="showContent('projects')">Proyectos</button>
+
+    </div>
+
+    <div id="skills" class="content">
+
+      <div class = "titulos">
+        Perfil
+      </div>
+
+      <div class="about-info">
+        Actualmente estoy en el quinto semestre de la carrera Ingeniería en Sistemas de Información en la Universidad de Sonora.
+        Me apasiona aprender nuevas habilidades y he desarrollado una base sólida en programación, con un enfoque especial en el desarrollo backend. Disfruto enfrentar retos, tanto de manera individual como colaborando en equipo, siempre buscando soluciones eficientes y creativas.
+      </div>
+
+      <hr>
+
+      <div class = "titulos">
+        Hard Skills
+      </div>
+
+      <div class="about-info">
+        A lo largo de mi carrera, he adquirido conocimientos en áreas fundamentales como Java, bases de datos, redes y servidores. Sin embargo, he tomado la iniciativa de profundizar en estos temas por mi cuenta, con el objetivo de construir una base más sólida y aplicable en diversos contextos técnicos.
+      </div>
+
+      <div class="progress-container-circle">
+        <div class="progress-circle">
+          <div class="circle" data-percent="90"></div>
+          <p>Java</p>
+        </div>
+        <div class="progress-circle">
+          <div class="circle" data-percent="75"></div>
+          <p>PHP</p>
+        </div>
+        <div class="progress-circle">
+          <div class="circle" data-percent="65"></div>
+          <p>HTML</p>
+        </div>
+        <div class="progress-circle">
+          <div class="circle" data-percent="60"></div>
+          <p>CSS</p>
+        </div>
+        <div class="progress-circle">
+          <div class="circle" data-percent="80"></div>
+          <p>MySQL</p>
+        </div>
+        <div class="progress-circle">
+          <div class="circle" data-percent="70"></div>
+          <p>Microsoft SQL Server</p>
+        </div>
+        <div class="progress-circle">
+          <div class="circle" data-percent="60"></div>
+          <p>Servidores</p>
+        </div>
+        <div class="progress-circle">
+          <div class="circle" data-percent="65"></div>
+          <p>Edición de Imágenes</p>
+        </div>
+      </div>
+
+
+
+
+
+      <hr>
+
+
+      <div class = "titulos">
+        Soft Skills
+      </div>
+
+      <div class="about-info">
+        Las actividades escolares han sido clave para desarrollar mis habilidades de liderazgo, permitiéndome guiar a mis compañeros hacia objetivos comunes. Además, he procurado ser proactiva y mejorar mis capacidades de comunicación, especialmente en lo que respecta a hablar en público y explicar ideas de manera clara y efectiva.
+      </div>
+
+
+    </div>
+
+    <div id="projects" class="content hidden">
+
+      <div class = "titulos">
+        Proyectos
+      </div>
+
+      <div class="about-info-timeline">
+        <div class="timeline">
+          <!-- UnisonHub -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <img src=".idea/images/unisonhub.png" alt="UnisonHub" class="timeline-img" onclick="showImage(this)">
+            </div>
+            <div class="timeline-content">
+              <h3>UnisonHub</h3>
+              <p><strong>Agosto - Octubre 2024</strong></p>
+              <p>Sistema hecho con Java SpringBoot donde se simula un foro de preguntas y respuestas, usando MySQL como base de datos. Participé en el backend en conjunto con un equipo. Tiene opciones como darse de alta con el API de correos, así como exportar un PDF y Excel con la información.</p>
+              <a href="https://github.com/Luisa-GVR/unisonHub" target="_blank">Ver en GitHub</a>
+            </div>
+          </div>
+
+          <!-- Literalura -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <img src=".idea/images/literalura.png" alt="Literalura" class="timeline-img" onclick="showImage(this)">
+            </div>
+            <div class="timeline-content">
+              <h3>Literalura</h3>
+              <p><strong>Mayo 2024</strong></p>
+              <p>Proyecto individual para curso de Oracle Next Generation en línea de comandos con ayuda de Spring, guarda la información que se pide en una base de datos con ayuda de una API de libros.</p>
+              <a href="https://github.com/Luisa-GVR/literalura" target="_blank">Ver en GitHub</a>
+            </div>
+          </div>
+
+          <!-- Reporte Industrial -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <img src=".idea/images/reporte-industrial.png" alt="Reporte Industrial" class="timeline-img" onclick="showImage(this)">
+            </div>
+            <div class="timeline-content">
+              <h3>Reporte Industrial</h3>
+              <p><strong>2023-2024</strong></p>
+              <p>Proyecto en equipo hecho en PHP para la generación de reportes de pedidos e inventario para secretaría en Ingeniería Industrial, participé ayudando en el backend, como base de datos, creación de controladores, modelos y análisis de información.</p>
+            </div>
+          </div>
+
+          <!-- Sistema Escolar -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <img src=".idea/images/sistema-escolar.png" alt="Sistema Escolar" class="timeline-img" onclick="showImage(this)">
+            </div>
+            <div class="timeline-content">
+              <h3>Sistema Escolar</h3>
+              <p><strong>2023</strong></p>
+              <p>Proyecto para Desarrollo de Sistemas 4 en PHP y MySQL donde se simulaba un sistema escolar sencillo, con diferentes roles como: estudiante, maestro y administrador. Cada uno con funciones diferentes haciendo uso de CRUD.</p>
+              <a href="https://github.com/Luisa-GVR/sistema_escolar" target="_blank">Ver en GitHub</a>
+            </div>
+          </div>
+
+          <!-- PokeAPI -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <img src=".idea/images/pokeapi.png" alt="PokeAPI" class="timeline-img" onclick="showImage(this)">
+            </div>
+            <div class="timeline-content">
+              <h3>PokeAPI</h3>
+              <p><strong>2023</strong></p>
+              <p>Proyecto final para Desarrollo de Sistemas 3, en donde se hace uso de Java para conectarse a una API, aunado al uso de hilos, se le da la opción al usuario de buscar un Pokemon mediante distintas formas (Nombre, tipo, generación), para después poder seleccionar movimientos y habilidades, de manera que se genere una carta según las opciones seleccionadas.</p>
+              <a href="https://github.com/Luisa-GVR/PokeApi" target="_blank">Ver en GitHub</a>
+            </div>
+          </div>
+
+          <!-- BreakOut -->
+          <div class="timeline-item">
+            <div class="timeline-left">
+              <img src=".idea/images/breakout.png" alt="BreakOut" class="timeline-img" onclick="showImage(this)">
+            </div>
+            <div class="timeline-content">
+              <h3>BreakOut</h3>
+              <p><strong>2023</strong></p>
+              <p>Proyecto para Desarrollo de Sistemas 3, en donde se hace uso de los hilos de Java para simular el juego de BreakOut.</p>
+              <a href="https://github.com/Luisa-GVR/breakout" target="_blank">Ver en GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lightbox  -->
+      <div id="lightbox" class="lightbox" onclick="closeImage()">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="expanded-img">
+      </div>
+
+
+
+      <hr>
+
+      <div class = "titulos">
+        Certificaciones
+      </div>
+
+      <div class="about-info-certificate">
+        <h2><a href="https://app.aluracursos.com/user/luisagavr/degree-spring-framework-grupo-6-one-15714/certificate" target="_blank">Formación Java y Spring Boot G6 - ONE</a></h2>
+      </div>
+
+      <div class="about-info-certificate">
+        <h2><a href="https://app.aluracursos.com/user/luisagavr/degree-javaoo-grupo6-one-15713/certificate" target="_blank">Formación Java Orientado a Objetos G6 - ONE</a></h2>
+      </div>
+
+      <div class="about-info-certificate">
+        <h2><a href="https://capacitateparaelempleo.org/verifica/9a7bdac1-cd7c-4a2e-b50f-d978c2c337b0/a5fdbce3-d358-49e4-8869-f86e7da8507f" target="_blank">Fundación Carlos Slim - Técnico en Big Data</a></h2>
+      </div>
+
+
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+    function showContent(contentId) {
+        // Ocultar contenedores
+        const contents = document.querySelectorAll('.content');
+        contents.forEach(content => {
+            content.classList.add('hidden');
+        });
+
+        const activeContent = document.getElementById(contentId);
+        activeContent.classList.remove('hidden');
+    }
+
+    // Mostrar algo por defecto
+    showContent('skills');
+
+function showImage(img) {
+    var lightbox = document.getElementById("lightbox");
+    var expandedImg = document.getElementById("expanded-img");
+
+    // Mostrar el lightbox
+    lightbox.style.display = "block";
+
+    expandedImg.src = img.src;
+}
+
+function closeImage() {
+    var lightbox = document.getElementById("lightbox");
+
+    lightbox.style.display = "none";
+}
+
+
+</script>
+
+
+
+</body>
+
+
+</html>
